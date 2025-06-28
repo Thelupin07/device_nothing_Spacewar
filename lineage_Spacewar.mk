@@ -30,8 +30,4 @@ PRODUCT_BUILD_PROP_OVERRIDES += \
     DeviceProduct=Spacewar \
     BuildFingerprint="Nothing/Spacewar/Spacewar:12/SKQ1.211230.001/1666412462:user/release-keys"
 
-# Axion vars
-AXION_CAMERA_REAR_INFO := 50,50
-AXION_CAMERA_FRONT_INFO := 16
-AXION_MAINTAINER := Aditya
-AXION_PROCESSOR := Snapdragon_778G+
+PRODUCT_ENABLE_UFFD_GC := true
