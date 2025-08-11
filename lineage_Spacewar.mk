@@ -13,18 +13,10 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 $(call inherit-product, device/nothing/Spacewar/device.mk)
 
 # Inherit some common Lineage stuff.
-$(call inherit-product, vendor/infinity/config/common_full_phone.mk)
-
-#infinity 
-INFINITY_MAINTAINER := "Aditya"
-TARGET_SUPPORTS_BLUR := true
-INFINITY_BUILD_TYPE := UNOFFICIAL
-WITH_GAPPS := true
-TARGET_HAS_UDFPS := true
-TARGET_SUPPORTS_QUICK_TAP := true
+$(call inherit-product, vendor/lineage/config/common_full_phone.mk)
 
 # Device identifier. This must come after all inclusions.
-PRODUCT_NAME := infinity_Spacewar
+PRODUCT_NAME := lineage_Spacewar
 PRODUCT_DEVICE := Spacewar
 PRODUCT_BRAND := Nothing
 PRODUCT_MODEL := A063
