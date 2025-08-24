@@ -31,3 +31,11 @@ PRODUCT_BUILD_PROP_OVERRIDES += \
     BuildFingerprint="Nothing/Spacewar/Spacewar:12/SKQ1.211230.001/1666412462:user/release-keys"
 
 PRODUCT_ENABLE_UFFD_GC := true
+
+
+
+TARGET_OPTIMIZED_DEXOPT := true
+
+TARGET_USES_CORE_GAPPS := true
+
+TARGET_DEFAULT_PIXEL_LAUNCHER := true
